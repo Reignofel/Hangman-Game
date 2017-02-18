@@ -20,27 +20,25 @@ h2{
 	text-align: center;
 	text-shadow: 3px 3px 4px #000000;
 	color: red;
+	font-size: 70px;
 	font-family: 'Calligraffitti', cursive;
 }
-h3,
+h3{
+	text-align: center;
+	text-shadow: 3px 3px 4px #000000;
+	color: white;
+	font-size: 40px;
+	font-family: 'Calligraffitti', cursive;
+}
 h4 {
 	text-align: center;
 	text-shadow: 3px 3px 4px #000000;
 	color: white;
+	font-size: 35px;
 	font-family: 'Calligraffitti', cursive;
 }
 
-h2 {
-	font-size: 60px;
-}
 
-h3 {
-	font-size: 35px;
-}
-
-h4 {
-	font-size: 30px;
-}
 
 p {
 	font-size: 20px;
