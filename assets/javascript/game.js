@@ -10,7 +10,7 @@ var lossCounter = 0;
 var status = "How to play: Press any letter on the keyboard to make your guess. You are limited to 10 incorrect guesses so choose wisely!";
 
 
-//when the document is finished loading, set the counters up 
+//Counter Setup
 window.onload = function reload() {
   resetGame();
   $("#puzzleOutput").html(currentPuzzle.join(" "));
@@ -21,7 +21,7 @@ window.onload = function reload() {
   $("#statusOutput").html(status);
 }
 
-//resets the counters, picks a new word and calls the function that hides it (hidePuzzle)
+//resets the counters, hidePuzzle
 function resetGame() {
   randomPuzzle();
   puzzleAnswer = randomPuzzle();
