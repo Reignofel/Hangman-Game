@@ -1,0 +1,63 @@
+body {
+
+	background-image: url("../images/back2.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+
+}
+
+h1 {
+	font-family: 'Calligraffitti', cursive;
+	color: white;
+	font-size: 80px;
+	text-shadow: 8px 8px 8px #000000;
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+	text-shadow: 3px 3px 4px #000000;
+	color: red;
+	font-family: 'Calligraffitti', cursive;
+}
+h3,
+h4 {
+	text-align: center;
+	text-shadow: 3px 3px 4px #000000;
+	color: white;
+	font-family: 'Calligraffitti', cursive;
+}
+
+h2 {
+	font-size: 60px;
+}
+
+h3 {
+	font-size: 35px;
+}
+
+h4 {
+	font-size: 30px;
+}
+
+p {
+	font-size: 20px;
+}
+#status {
+	text-align: center;
+	height: 100px;
+}
+
+#wins h3, 
+#wins h4 {
+	text-align: right;
+}
+
+#losses h3,
+#losses h4 {
+	text-align: left;
+}
+
+
