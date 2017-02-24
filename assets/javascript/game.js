@@ -96,7 +96,7 @@ document.onkeyup = function(event) {
     if (wrongGuesses.indexOf(lastGuess) == -1) {
       wrongGuesses.push(lastGuess);
       remainingGuesses--;
-      status = '"' + lastGuess + '"' + ' was not found!! You loose 1 life! ' + remainingGuesses + ' lives left!';
+      status = '"' + lastGuess + '"' + ' was not found!! You lose 1 life! ' + remainingGuesses + ' lives left!';
     }
   }
 //check to see if currentPuzzle is solved and run WIN function
